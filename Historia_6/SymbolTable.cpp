@@ -37,8 +37,8 @@ SymbolTable::SymbolTable()
 
 void addEntry(string symbol, int address)
 {
-    map1.insert(std::pair<string,int>(symbol,address))
-};
+    map1.insert(pair<string,int>(symbol,address));
+}
 
 bool contains(string symbol)
 {
